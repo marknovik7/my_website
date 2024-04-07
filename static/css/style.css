@@ -338,25 +338,24 @@ nav {
 }
 
 .experience-card .time {
-    font-size: 0.9rem; /* Smaller time text */
+    font-size: 0.9rem;
     color: #64ffda;
 }
 
 .experience-card p {
     margin-bottom: 1rem;
-    font-size: 0.9rem; /* Adjust paragraph size */
-    line-height: 1.5; /* Line spacing for readability */
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: #ddd;
 }
 
 .experience-card ul li {
-    /* Existing styles... */
-    display: inline-block; /* Allow inline display for pills */
-    margin-right: 5px; /* Spacing between pills */
-    padding: 5px 10px; /* Padding for content within pills */
-    border-radius: 20px; /* Rounded corners for pill effect */
-    background-color: #eee; /* Light gray background for pills */
-    color: #333; /* Text color */
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #0E3548;
+    color: #64ffda;
 }
 
 .experience-card .technologies {
