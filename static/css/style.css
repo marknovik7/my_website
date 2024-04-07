@@ -261,11 +261,11 @@ nav {
     margin: 0;
     color: #ddd;
 }
-
+/* 
 .university-card:hover {
-    transform: translateY(-3px); /* Adds a slight lift on hover */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Emphasize hover effect */
-}
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+} */
 
 /* Added styles for white separator line */
 #education::before {
@@ -289,7 +289,7 @@ nav {
 #work-experience h2 {
     text-align: center;
     font-size: 1.5rem;
-    color: #ccd6f6;
+    color: #d0d8e4;
 }
 
 .experience-card-container {
@@ -387,7 +387,7 @@ nav {
 
 #projects h2 {
     text-align: center;
-    color: #ccd6f6;
+    color: #d0d8e4;
     margin-bottom: 2rem; /* Add some space between title and cards */
 }
 
@@ -452,7 +452,7 @@ nav {
 
 #contact-me h2 {
     margin-bottom: 2rem;
-    color: #ccd6f6;
+    color: #d0d8e4;
 }
 
 #contact-me a{
@@ -462,7 +462,7 @@ nav {
 .linkedin-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #61dafb;
+    background-color: #64ffda;
     color: white;
     text-decoration: none;
     border-radius: 5px;
