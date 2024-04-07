@@ -69,19 +69,19 @@ nav {
 .menu a {
     text-decoration: none;
     font-size: 1.2em;
-    color: white; /* Maintains white color for menu links */
+    color: white;
     transition: opacity 0.3s ease-in-out;
 }
 
-.logo-btn { /* Maintains unique styles for logo button */
+.logo-btn {
     padding: 10px 20px;
     border: none;
     font-size: 1.8em;
     cursor: pointer;
     background-color: transparent;
     text-align: center;
-    color: white; /* Sets initial white color for logo button */
-    text-decoration: none; /* Ensures no text decoration */
+    color: white;
+    text-decoration: none;
 }
 
 .scrolled {
@@ -91,7 +91,7 @@ nav {
 }
 
 .scrolled .menu a,
-.scrolled .logo-btn { /* Applies color change to both logo and menu links within scrolled state */
+.scrolled .logo-btn {
     color: white;
 }
 
@@ -212,7 +212,7 @@ nav {
 
 #my-story strong { /* Added to style bold keywords */
     font-weight: bold;
-    color: #fff; /* White color for keywords to stand out */
+    color: #64ffda; /* White color for keywords to stand out */
 }
 
 /* Added styles for white separator line */
@@ -234,21 +234,21 @@ nav {
 
 #education h2 {
     text-align: center;
-    font-size: 1.5rem; /* Larger font size for headings */
-    color: #d0d8e4; /* Light blue color for headings, matching theme */
+    font-size: 1.5rem;
+    color: #d0d8e4;
 }
 
 .university-card {
-    display: flex; /* Allow card elements to stack horizontally */
-    flex-direction: column; /* Content stacks vertically */
-    align-items: flex-start; /* Align content to the left */
-    border: none; /* Removed border for cleaner look */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px; /* Maintains rounded corners */
-    background-color: #324964; /* Dark navy background for cards */  /* Changed background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: all 0.2s ease; /* Smoother hover effect */
+    border-radius: 10px;
+    background-color: #15455d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
 }
 
 .university-card h3 {
@@ -300,7 +300,7 @@ nav {
 }
 
 .experience-card {
-    background-color: #324964;
+    background-color: #15455d;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border-radius: 5px; /* Rounded corners */
     margin: 1rem; /* Spacing between cards */
@@ -339,7 +339,7 @@ nav {
 
 .experience-card .time {
     font-size: 0.9rem; /* Smaller time text */
-    color: #ccd6f6;
+    color: #64ffda;
 }
 
 .experience-card p {
@@ -400,7 +400,7 @@ nav {
 .project-card {
     display: flex;
     flex-direction: row;
-    background-color: #324964;
+    background-color: #15455d;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border-radius: 10px;
     padding: 1%;
